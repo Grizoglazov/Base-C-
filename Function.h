@@ -1,7 +1,5 @@
 #pragma once
+#include"Figure.h"
 
-int addition(int, int);
-int subtraction(int, int);
-int multiplication(int, int);
-double division(double, double);
-int exponent(int, int);
+void printInfo(const Figure* obj);
+int getSideCount(const Figure* obj);
